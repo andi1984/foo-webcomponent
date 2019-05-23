@@ -1,4 +1,4 @@
-class AndiTitle extends HTMLElement {
+export class AndiTitle extends HTMLElement {
   connectedCallback() {
     const shadowRoot = this.attachShadow({ mode: "open" });
     shadowRoot.innerHTML = this._template();
@@ -15,5 +15,3 @@ class AndiTitle extends HTMLElement {
     `;
   }
 }
-
-window.customElements.define("andi-title", AndiTitle);

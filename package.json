@@ -1,0 +1,29 @@
+{
+  "name": "foo-webcomponent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config",
+    "watch": "rollup --config --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andi1984/foo-webcomponent.git"
+  },
+  "author": "Andreas Sander",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andi1984/foo-webcomponent/issues"
+  },
+  "homepage": "https://github.com/andi1984/foo-webcomponent#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "rollup": "^1.12.3",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-node-resolve": "^5.0.0",
+    "rollup-plugin-uglify": "^6.0.2"
+  }
+}
